@@ -64,12 +64,3 @@ def extrair_todas():
     logger.info("Extraida %s promocões", len(promocoes))
     return promocoes
 
-
-if __name__ == "__main__":
-    promocoes = extrair_todas()
-    print(f"Total: {len(promocoes)} promoções")
-    print(promocoes[0])
-
-    ids = [p["appid"] for p in promocoes]
-    print("Sem repetidos:", len(ids) == len(set(ids)))
-    print("Só jogos com desconto:", all(p["discount_percent"] > 0 for p in promocoes))
