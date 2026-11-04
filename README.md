@@ -1,7 +1,5 @@
 <div align="center">
 
-[🇧🇷 Português](README_PT.md)
-
 ![Steam Deals](bannersteam.jpg)
 
 # 🎮 steam-deals-etl
