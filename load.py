@@ -40,15 +40,3 @@ def carregar_dados(dados):
         logger.info("Insereidas %s linhas, ignoradas %s (ja existem)", inseridas, len(dados)-inseridas)
         return inseridas
 
-if __name__ == "__main__":
-    from decimal import Decimal
-    from datetime import date
-
-    teste = [{
-        "appid": 1, "name": "Jogo Teste",
-        "original_price": Decimal("10.00"), "final_price": Decimal("5.00"),
-        "discount_percent": 50, "expiration": None,
-        "collection_date": date.today(),
-    }]
-    print(carregar_dados(teste))
-    print(carregar_dados(teste))

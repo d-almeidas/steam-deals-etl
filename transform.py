@@ -36,16 +36,3 @@ def transformar(dados):
         })
 
     return resultado
-
-if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO)
-    teste = [
-        {"appid": 1, "name": "A", "original_price": 1000, "final_price": 500,
-         "discount_percent": 50, "expiration": 1793037600},
-        {"appid": 2, "name": "B", "original_price": 2000, "final_price": 3000,
-         "discount_percent": 10, "expiration": None},
-        {"appid": 3, "name": "C", "original_price": 1500, "final_price": 0,
-         "discount_percent": 100, "expiration": None},
-    ]
-    for linha in transformar(teste):
-        print(linha)
