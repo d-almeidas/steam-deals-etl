@@ -1,6 +1,6 @@
 <div align="center">
 
-![Promoções da Steam](banner.png)
+![Promoções da Steam](bannersteam.jpg)
 
 # 🎮 steam-deals-etl
 
