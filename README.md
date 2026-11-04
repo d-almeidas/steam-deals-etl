@@ -2,7 +2,7 @@
 
 [🇧🇷 Português](README_PT.md)
 
-![Steam Deals](bannersteam.png)
+![Steam Deals](bannersteam.jpg)
 
 # 🎮 steam-deals-etl
 
